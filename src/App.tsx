@@ -1,5 +1,12 @@
+import { GlobalStyle } from './global/styles/global';
+
 function App() {
-  return <h1>Initial Commit</h1>;
+  return (
+    <>
+      <GlobalStyle />
+      <h1>Initial Commit</h1>
+    </>
+  );
 }
 
 export default App;
