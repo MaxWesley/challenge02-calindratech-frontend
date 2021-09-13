@@ -29,6 +29,10 @@ export const Container = styled.footer`
 
             font-size: 16.2px;
             line-height: 18.98px;
+
+            @media screen and (max-width: 840px) {
+                text-align: center;
+            }
         }
 
         div {
@@ -51,5 +55,25 @@ export const Container = styled.footer`
                 margin-left: 24.3px;
             }
         }
+
+        @media screen and (max-width: 840px) {
+            &:first-of-type {
+                margin-right: 0;
+                margin-bottom: 42.12px;
+            }
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 840px) {
+        height: 334px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0;
     }
 `;

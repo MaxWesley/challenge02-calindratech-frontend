@@ -2,12 +2,16 @@ import { Logo } from '../Logo';
 
 import { 
     Container,
-    MenuItem
+    MenuItem,
+    MenuMobileIcon
 } from './styles';
+
+import menuMobilePNG from '../../assets/images/menu-mobile.png';
 
 function NavBar() {
     return (
         <Container>
+            <MenuMobileIcon src={menuMobilePNG} alt="Icon menu mobile"/>
             <Logo />
             <div className="container-links">
                 <MenuItem href="#about-us">About us</MenuItem>
