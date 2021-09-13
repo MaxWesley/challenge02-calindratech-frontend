@@ -1,6 +1,8 @@
+import { NavBar } from './components/NavBar';
 import { InitialScreen } from './components/InitialScreen';
 import { LastScreen } from './components/LastScreen';
-import { NavBar } from './components/NavBar';
+import { Footer } from './components/Footer';
+
 import { GlobalStyle } from './global/styles/global';
 
 function App() {
@@ -8,8 +10,11 @@ function App() {
     <>
       <GlobalStyle />
       <NavBar />
-      <InitialScreen />
-      <LastScreen />
+      <main>
+        <InitialScreen />
+        <LastScreen />
+      </main>
+      <Footer />
     </>
   );
 }
