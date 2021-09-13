@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <NavBar />
+      <header>
+        <NavBar />
+      </header>
       <main>
         <InitialScreen />
         <LastScreen />
