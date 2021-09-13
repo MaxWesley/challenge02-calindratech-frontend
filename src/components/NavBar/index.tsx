@@ -1,23 +1,14 @@
+import { Logo } from '../Logo';
+
 import { 
-    Container, 
-    Logo,
-    LogoTypography,
-    Slogan,
+    Container,
     MenuItem
 } from './styles';
-
-import logoPNG from '../../assets/images/logo.png';
 
 function NavBar() {
     return (
         <Container>
-            <div className="container-logo">
-                <Logo src={logoPNG} />
-                <div>
-                    <LogoTypography>zutterman</LogoTypography>
-                    <Slogan>Measure Tapes</Slogan>
-                </div>
-            </div>
+            <Logo />
             <div className="container-links">
                 <MenuItem href="#about-us">About us</MenuItem>
                 <MenuItem href="#models">Models</MenuItem>
