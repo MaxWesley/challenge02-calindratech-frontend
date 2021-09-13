@@ -2,7 +2,8 @@ import {
     Container, 
     Logo,
     LogoTypography,
-    Slogan
+    Slogan,
+    MenuItem
 } from './styles';
 
 import logoPNG from '../../assets/images/logo.png';
@@ -16,6 +17,11 @@ function NavBar() {
                     <LogoTypography>zutterman</LogoTypography>
                     <Slogan>Measure Tapes</Slogan>
                 </div>
+            </div>
+            <div className="container-links">
+                <MenuItem href="#about-us">About us</MenuItem>
+                <MenuItem href="#models">Models</MenuItem>
+                <MenuItem href="#guarantee">Guarantee</MenuItem>
             </div>
         </Container>
     );
