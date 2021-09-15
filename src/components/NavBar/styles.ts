@@ -66,4 +66,8 @@ export const MenuMobileIcon = styled.img`
     &:hover {
         filter: brightness(0.8);
     }
+
+    @media screen and (min-width: 840px) {
+        display: none;
+    }
 `;
